@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    color: #fff;
+}
+#main
+{   height: 100%;
+    width: 100vw;
+    background-color: #343434;
+    padding: 5vw;
+    overflow-x: hidden;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+#img{
+  width: 100px;height: 100px;
+  /* background-color: red; */
+  border-radius: 15px;
+  border: none;
+  overflow: hidden;
+
+}
+.card{
+  width: 300px;
+  height: 400px;
+  
+  border-radius: 20px;
+  background-color: #292929;
+  padding: 30px;
+}
+
+#name{
+  font-size: 25px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-top: 15px;
+}
+#gender{
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #ffffffc9;
+  margin-top: 5px;
+}
+#mail{
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #ffffffc9;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#button{
+  padding: 10px 25px;
+  background-color: rgb(80, 156, 80);
+  margin-bottom: 20px;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  margin-right: 30px;
+  
+}
+#img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#lorem{
+  color: #ffffff90;
+}
+.remove-button {
+ 
+  padding: 10px 25px;
+  background-color: rgb(84, 33, 33);
+  margin-bottom: 20px;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  
+}
